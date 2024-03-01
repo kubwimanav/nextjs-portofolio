@@ -8,18 +8,30 @@ export default function Navbar() {
         </div>
 
         <div className=" flex  gap-20">
-          <div  className=" flex  gap-20">
+          <div className=" flex  gap-20">
             <div className=" flex gap-4">
-              <Link href="home">Home</Link>
-              <Link href="home">About</Link>
-              <Link href="home">portofolio</Link>
-              <Link href="project">My Project</Link>
+              <Link href="home" className=" hover:text-emerald-400">
+                Home
+              </Link>
+              <Link href="home" className=" hover:text-emerald-400">
+                About
+              </Link>
+              <Link href="home" className=" hover:text-emerald-400">
+                portofolio
+              </Link>
+              <Link href="project" className=" hover:text-emerald-400">
+                My Project
+              </Link>
             </div>
 
-            <Link href="contact">Contact</Link>
+            <Link href="contact" className=" hover:text-emerald-400">
+              Contact
+            </Link>
           </div>
 
-          <Link href="login">Login</Link>
+          <Link href="login" className=" hover:text-emerald-400">
+            Login
+          </Link>
         </div>
       </div>
     );
