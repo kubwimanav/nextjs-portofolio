@@ -4,7 +4,7 @@ import { FaSquareInstagram } from "react-icons/fa6";
 export default function Footer() {
   return (
     <div>
-      <div className=" flex justify-around bottom-2">
+      <div className=" flex justify-around bottom-2 ">
         <div>
           <p>About</p>
           <p className="  w-96">

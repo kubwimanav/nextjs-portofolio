@@ -13,7 +13,7 @@ export default function Navbar() {
               <Link href="home" className=" hover:text-emerald-400">
                 Home
               </Link>
-              <Link href="home" className=" hover:text-emerald-400">
+              <Link href="about" className=" hover:text-emerald-400">
                 About
               </Link>
               <Link href="home" className=" hover:text-emerald-400">
