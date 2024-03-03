@@ -1,7 +1,11 @@
 export default function Contact() {
     return (
-      <div className=" flex justify-center">
-        <div className=" shadow-md p-10 flex gap-3">
+      <div className=" flex flex-col gap-5 justify-center">
+        <div className=" font-bold  flex justify-center text-emerald-400">
+          CONTACT ME
+          </div>
+        <div className="  flex  justify-center gap-5">
+          
           <div>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2042014.2644906435!2d30.067304!3d-1.575976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dc7e0817e278b9%3A0x2e1d372b9292caae!2sByumba!5e0!3m2!1sen!2srw!4v1709229665557!5m2!1sen!2srw"

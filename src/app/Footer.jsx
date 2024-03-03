@@ -3,10 +3,10 @@ import { FaSquareWhatsapp } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 export default function Footer() {
   return (
-    <div>
-      <div className=" flex justify-around bottom-2 ">
+    <div className=" shadow-inner shadow-slate-200 mt-3">
+      <div className=" flex justify-around bottom-2 border-black border-b-[1px] pt-3 pb-3 ">
         <div>
-          <p>About</p>
+          <p className="  mb-2"> About</p>
           <p className="  w-96">
             Although a text is often a quick way to discuss matters, recruiters
             are often busy with their full-time job. You might follow up after a
@@ -15,7 +15,7 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <p>Navigation</p>
+          <p className=" mb-2">Navigation</p>
           <p>Home</p>
           <p>About</p>
           <p>Portofolio</p>
@@ -24,11 +24,11 @@ export default function Footer() {
           <p>Login</p>
         </div>
 
-        <div className="section">
-          <p className="login"> Need Help ?</p>
+        <div >
+          <p className=" mb-2"> Need Help ?</p>
 
-          <div className="section-12">
-            <div className="section-13">
+          <div className=" flex flex-col gap-1">
+            <div >
               <p>Call Us</p>
               <p>+250789466837</p>
             </div>
@@ -40,10 +40,7 @@ export default function Footer() {
               <p>Location</p>
               <p>Main Street, Victoria 8007.</p>
             </div>
-            <div className="section-13">
-              <p>Follow us</p>
-              <div />
-            </div>
+
           </div>
         </div>
         <div className=" flex flex-col gap-4">
@@ -67,7 +64,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <p className=" flex justify-center py-4  top-px border-black">
+      <p className=" flex justify-center py-4  top-px ">
         © 2024 Vincent Turikubwimana
       </p>
     </div>

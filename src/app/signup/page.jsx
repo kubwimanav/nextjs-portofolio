@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Signup() {
     return (
       <div className=" flex justify-center ">
-        <div className=" flex  gap-2  shadow-md px-12 py-7">
+        <div className=" flex  gap-2  px-12 py-7">
           <div>
             <p className=" font-bold font text-xl mb-7"> Create Account Here!!!</p>
             <form>
@@ -49,7 +49,7 @@ export default function Signup() {
                 </select>
               </div>
               <button className="   px-48 py-2 rounded-md  mt-3 bg-emerald-400  hover:bg-green-600">
-                Signin
+                Signup
               </button>
             </form>
             <p className=" mt-3">
@@ -59,7 +59,7 @@ export default function Signup() {
               </Link>{" "}
             </p>
           </div>
-          <img src="/login.jpg" className=" w-[25rem] h-[30rem]" />
+          <img src="/login.jpg" className=" w-[25rem] h-[31rem]" />
         </div>
       </div>
     );

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Login() {
     return (
       <div className=" flex justify-center">
-        <div className=" flex  gap-2 shadow-md p-10">
+        <div className=" flex  gap-2  p-10">
           <div className=" flex  flex-col gap-2">
             <p className=" font-bold font text-xl"> Login Here!!!</p>
             <form className=" flex  flex-col gap-1">
