@@ -1,7 +1,7 @@
 export default function About() {
     return (
       <div>
-        <div>
+        <div className=" flex flex-col gap-5">
           <p className=" flex justify-center font-bold text-emerald-400">
             ABOUT ME
           </p>

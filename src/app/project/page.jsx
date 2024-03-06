@@ -1,4 +1,4 @@
-export default function Myproject() {
+export default function Project() {
   return (
     <div className=" flex flex-col gap-5">
       <div className=" flex  flex-col gap-5 ">
@@ -14,38 +14,38 @@ export default function Myproject() {
         {" "}
         <img
           src="/project-1.jpg.webp"
-          className=" w-[13rem]  h-[10rem] rounded-2xl"
+          className=" w-[16rem]  h-[13rem] rounded-2xl"
         />
         <img
           src="/project-4.jpg.webp"
-          className=" w-[13rem] h-[10rem] rounded-2xl"
+          className=" w-[16rem] h-[13rem] rounded-2xl"
         />
         <img
           src="/project-5.jpg.webp"
-          className=" w-[13rem] h-[10rem] rounded-2xl"
+          className=" w-[16rem] h-[13rem] rounded-2xl"
         />
         <img
           src="/project-5.jpg.webp"
-          className=" w-[13rem] h-[10rem] rounded-2xl"
+          className=" w-[16rem] h-[13rem] rounded-2xl"
         />
       </div>
       <div className=" flex justify-center gap-5">
         {" "}
         <img
           src="/project-1.jpg.webp"
-          className=" w-[13rem] h-[10rem] rounded-2xl"
+          className=" w-[16rem] h-[13rem] rounded-2xl"
         />
         <img
           src="/project-4.jpg.webp"
-          className=" w-[13rem] h-[10rem] rounded-2xl"
+          className=" w-[16rem] h-[13rem] rounded-2xl"
         />
         <img
           src="/project-5.jpg.webp"
-          className=" w-[13rem] h-[10rem] rounded-2xl"
+          className=" w-[16rem] h-[13rem] rounded-2xl"
         />
         <img
           src="/project-5.jpg.webp"
-          className=" w-[13rem] h-[10rem] rounded-2xl"
+          className=" w-[16rem] h-[13rem] rounded-2xl"
         />
       </div>
     </div>

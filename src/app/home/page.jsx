@@ -1,11 +1,11 @@
 export default function Home() {
     return (
-      <div className=" flex justify-center gap-10">
+      <div className=" flex justify-center gap-44">
         <div className="  pt-24 flex flex-col  gap-28">
           <div className=" flex flex-col gap-2">
             <p className=" font-bold">UI/UX Design && Software Developer</p>
             <p>Hi, I am Vincent, Focusing On</p>
-            <p>Creating Emotional</p>
+            <p>Creating Emotional Design</p>
             <p>Experiences</p>
           </div>
           <div>

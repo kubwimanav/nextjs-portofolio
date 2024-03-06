@@ -4,7 +4,7 @@ export default function Contact() {
         <div className=" font-bold  flex justify-center text-emerald-400">
           CONTACT ME
           </div>
-        <div className="  flex  justify-center gap-5">
+        <div className="  flex  justify-center gap-2">
           
           <div>
             <iframe
@@ -12,7 +12,7 @@ export default function Contact() {
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
-              className=" h-[22rem] w-[25rem]"
+              className=" h-[25rem] w-[35rem] rounded-md"
             ></iframe>
           </div>
           <div>
@@ -25,22 +25,22 @@ export default function Contact() {
                 <label>Full Name</label>
                 <input
                   type="fullName"
-                  className=" border-2  px-28 py-2 rounded-md"
+                  className=" border-2  px-40 py-3 rounded-md"
                 />
               </div>
               <div className=" flex flex-col gap-1">
                 <label>Email</label>
                 <input
                   type="email"
-                  className=" border-2  px-12 py-2 rounded-md"
+                  className=" border-2  px-35 py-3 rounded-md"
                 />
               </div>
 
               <div className=" flex flex-col gap-1">
                 <label>Meassage</label>
-                <textarea className=" border-2  px-12 py-5  rounded-md" />
+                <textarea className=" border-2  px-12 py-9  rounded-md" />
               </div>
-              <button className="   px-48 py-2 rounded-md  mt-4 bg-emerald-400  hover:bg-green-600">
+              <button className="  px-60 py-2 rounded-md  mt-4 bg-emerald-400  hover:bg-green-600">
                 Submit
               </button>
             </form>
