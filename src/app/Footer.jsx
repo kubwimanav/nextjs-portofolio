@@ -24,11 +24,11 @@ export default function Footer() {
           <p>Login</p>
         </div>
 
-        <div >
+        <div>
           <p className=" mb-2"> Need Help ?</p>
 
           <div className=" flex flex-col gap-1">
-            <div >
+            <div>
               <p>Call Us</p>
               <p>+250789466837</p>
             </div>
@@ -40,7 +40,6 @@ export default function Footer() {
               <p>Location</p>
               <p>Main Street, Victoria 8007.</p>
             </div>
-
           </div>
         </div>
         <div className=" flex flex-col gap-4">
@@ -52,7 +51,7 @@ export default function Footer() {
             ></input>
             <button
               type="submit"
-              className="  h-8 p-1 rounded-md bg-emerald-400 "
+              className="  h-8 p-1 rounded-md bg-emerald-400   hover:bg-green-600"
             >
               Subscribe
             </button>

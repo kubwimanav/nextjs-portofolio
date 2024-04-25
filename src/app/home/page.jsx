@@ -1,7 +1,7 @@
 export default function Home() {
     return (
-      <div className=" flex justify-center gap-44">
-        <div className="  pt-24 flex flex-col  gap-28">
+      <div className=" flex flex-col   md:flex-row justify-center gap-44 ">
+        <div className="pt-24 flex flex-col  gap-28">
           <div className=" flex flex-col gap-2">
             <p className=" font-bold">UI/UX Design && Software Developer</p>
             <p>Hi, I am Vincent, Focusing On</p>
@@ -14,9 +14,12 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div>
-          <img src="/home.jpg" className=" w-[25rem] h-[25rem] rounded-2xl" />
-        </div>
+          <div className="w-[25rem] h-[25rem]  sm:w[10rem]:h-[10rem]">
+            <img
+              src="/home.jpg"
+              className=" w-full h-full rounded-2xl"
+            />
+          </div>
       </div>
     );
 }
